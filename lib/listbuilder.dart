@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class listbuilder extends StatelessWidget{
   var title=["anu","ram","balu","arun","amal"];
@@ -20,7 +21,7 @@ class listbuilder extends StatelessWidget{
            leading: CircleAvatar(backgroundImage: AssetImage("${image[index]}"),),
            title: Text("${title[index]}"),
            subtitle: Text("${phone[index]}"),
-           trailing: Icon(Icons.call),
+           trailing: FaIcon(magic)
          ),
        );
      },itemCount: title.length,),

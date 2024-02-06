@@ -40,6 +40,7 @@ dependencies:
   introduction_screen: ^3.1.12
   flutter_svg: ^2.0.9
   carousel_slider: ^4.2.1
+  open_weather_client: ^2.3.2
   lottie:
 
   # The following adds the Cupertino Icons font to your application.
