@@ -17,8 +17,11 @@ void main() {
               child: Padding(
                 padding: const EdgeInsets.all(14.0),
                 child: Column(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  crossAxisAlignment: CrossAxisAlignment.center,
                   children: <Widget>[
                     Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
                       children: <Widget>[
                         Flexible(
                           flex: 1,
@@ -45,8 +48,7 @@ void main() {
                               ) //BoxDecoration
                           ), //Container
                         ) //Flexible
-                      ], //<Widget>[]
-                      mainAxisAlignment: MainAxisAlignment.center,
+                      ],
                     ), //Row
                     Flexible(
                       flex: 1,
@@ -60,6 +62,7 @@ void main() {
                       ), //Container
                     ), //Flexible
                     Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
                       children: <Widget>[
                         Flexible(
                           flex: 2,
@@ -73,7 +76,7 @@ void main() {
                             ), //BoxDecoration
                           ), //Container
                         ), //Flexible
-                        SizedBox(
+                        const SizedBox(
                           width: 20,
                         ), //SizedBox
                         Flexible(
@@ -88,12 +91,9 @@ void main() {
                                 ) //BoxDecoration
                             ) //Container,
                         ) //Flexible
-                      ], //<widget>[]
-                      mainAxisAlignment: MainAxisAlignment.center,
+                      ],
                     ), //Row
-                  ], //<Widget>[]
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  crossAxisAlignment: CrossAxisAlignment.center,
+                  ],
                 ), //Column
               ) //Padding
           ), //Container

@@ -1,14 +1,17 @@
-import 'dart:js';
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:novflutterpro/datapassing/prodectdetils.dart';
+import 'package:novflutterpro/datapassing/splsh.dart';
 
 import 'dummyprodect.dart';
 void main(){
-  runApp(MaterialApp(home:Mainscreen() ,
+  runApp(MaterialApp(home:myscplash() ,
     routes:{
-    'secondpage': (context) =>productdetils()},));
+
+      'secondpage': (context) =>productdetils()
+    },
+  ));
 }
 
 class Mainscreen extends StatefulWidget{

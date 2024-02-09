@@ -21,7 +21,7 @@ class listbuilder extends StatelessWidget{
            leading: CircleAvatar(backgroundImage: AssetImage("${image[index]}"),),
            title: Text("${title[index]}"),
            subtitle: Text("${phone[index]}"),
-           trailing: FaIcon(magic)
+           // trailing: FaIcon(magic)
          ),
        );
      },itemCount: title.length,),
