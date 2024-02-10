@@ -45,6 +45,7 @@ dependencies:
   calendar_date_picker2: ^0.5.3
   google_maps_flutter: ^2.5.3
   shared_preferences: ^2.2.2
+  sqflite:
   lottie:
 
   # The following adds the Cupertino Icons font to your application.
