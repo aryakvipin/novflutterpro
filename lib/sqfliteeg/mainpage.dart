@@ -84,11 +84,11 @@ class _MainSQLState extends State<MainSQL> {
   final note = TextEditingController();
 
   void showForm(int? id) async {
-    // if (id != null) {
-    //   final existingNote = note_from_db.firstWhere((note) => note['id'] == id);
-    //   title.text = existingNote['title'];
-    //   note.text = existingNote['note'];
-    // }
+    if (id != null) {
+      final existingNote = note_from_db.firstWhere((note) => note['id'] == id);
+      title.text = existingNote['title'];
+      note.text = existingNote['note'];
+    }
 
     showModalBottomSheet(
         context: context,

@@ -71,7 +71,7 @@ class SQLHelper {
     try{
       await db.delete("notes", where: "id = ?",whereArgs: [id]);
     }catch(err){
-      debugPrint("Somethi g went wrong");
+      debugPrint("Something went wrong");
     }
   }
 }
