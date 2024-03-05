@@ -31,6 +31,7 @@ dependencies:
   flutter:
     sdk: flutter
   device_preview: ^1.1.0
+  flutter_secure_storage: ^9.0.0
   flutter_staggered_grid_view: ^0.7.0
   font_awesome_flutter: ^10.6.0
   google_fonts: ^6.1.0
@@ -39,14 +40,23 @@ dependencies:
   expansion_tile_card: ^3.0.0
   introduction_screen: ^3.1.12
   flutter_svg: ^2.0.9
+  rich_readmore:
   carousel_slider: ^4.2.1
   open_weather_client: ^2.3.2
   toggle_switch: ^2.1.0
   calendar_date_picker2: ^0.5.3
   google_maps_flutter: ^2.5.3
   shared_preferences: ^2.2.2
+  hive:
+  hive_flutter: ^1.1.0
+  image_picker:
   sqflite:
+  email_validator:
+  get:
   lottie:
+  permission_handler:
+  provider:
+
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -55,6 +65,8 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  hive_generator:
+  build_runner:
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
