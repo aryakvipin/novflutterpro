@@ -5,8 +5,8 @@ import '../model/Movie.dart';
 
 final List<Movie> data = List.generate(
     100,
-    (index) => Movie(
-        title: "Movie $index", time: "${Random().nextInt(100) + 60} minute"));
+    (index) => Movie(title: "Movie $index", time:
+    "${Random().nextInt(100) + 60} minute"));
 
 class MovieProvider with ChangeNotifier {
   final List<Movie> movieHome = data;
