@@ -16,7 +16,7 @@ class Get_Main extends StatelessWidget {
   Widget build(BuildContext context) {
     final CountController controller = Get.put(CountController());
 
-    return Scaffold(
+    return Scaffold(backgroundColor: Colors.red,
       appBar: AppBar(
         title: const Text("Counter Example"),
       ),

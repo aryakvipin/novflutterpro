@@ -35,6 +35,7 @@ class SliverExx extends StatelessWidget {
                 color: Colors.white,
                 child: const TextField(
                   decoration: InputDecoration(
+                    border: InputBorder.none,
                       hintText: "Search Something",
                       prefixIcon: Icon(Icons.search),
                       suffixIcon: Icon(Icons.camera_alt)),
