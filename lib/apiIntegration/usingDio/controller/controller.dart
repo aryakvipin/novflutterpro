@@ -1,9 +1,9 @@
 import 'package:flutter/animation.dart';
 import 'package:get/get.dart';
 import 'package:internet_connection_checker/internet_connection_checker.dart';
-import 'package:samplefeb/apiIntegration/usingDio/services/dioservice.dart';
 import 'package:scrollable_positioned_list/scrollable_positioned_list.dart';
 import '../model/postmodel.dart';
+import '../services/dioservice.dart';
 
 class HomeController extends GetxController {
   RxList<PostModel> posts = RxList();

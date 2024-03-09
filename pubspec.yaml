@@ -47,6 +47,11 @@ dependencies:
   calendar_date_picker2: ^0.5.3
   google_maps_flutter: ^2.5.3
   shared_preferences: ^2.2.2
+  internet_connection_checker:
+  scrollable_positioned_list:
+  dio:
+  top_snackbar_flutter:
+
   hive:
   hive_flutter: ^1.1.0
   image_picker:
@@ -57,6 +62,7 @@ dependencies:
   permission_handler:
   provider:
   cached_network_image:
+
   http:
 
 

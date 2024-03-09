@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
-import 'package:samplefeb/apiIntegration/usingDio/controller/controller.dart';
-import 'package:samplefeb/apiIntegration/usingDio/utils/colors.dart';
+
+import '../controller/controller.dart';
+import '../utils/colors.dart';
+
 
 class DetailsPage extends StatelessWidget {
   int index;

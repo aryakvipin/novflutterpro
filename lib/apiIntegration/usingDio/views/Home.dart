@@ -4,10 +4,11 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:get/get.dart';
 import 'package:internet_connection_checker/internet_connection_checker.dart';
 import 'package:lottie/lottie.dart';
-import 'package:samplefeb/apiIntegration/usingDio/controller/controller.dart';
-import 'package:samplefeb/apiIntegration/usingDio/utils/colors.dart';
-import 'package:samplefeb/apiIntegration/usingDio/utils/constSnack.dart';
+
 import 'package:scrollable_positioned_list/scrollable_positioned_list.dart';
+import '../controller/controller.dart';
+import '../utils/colors.dart';
+import '../utils/constSnack.dart';
 import 'Details.dart';
 
 void main() {
